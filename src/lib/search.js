@@ -66,7 +66,7 @@ export function filterPlaces(items, options = {}) {
   });
 }
 
-export function filterBusRoutes(items, options = {}) {
+export function filterRoutes(items, options = {}) {
   const { origin, destination } = options;
   return items.filter((route) => {
     if (origin && !route.origin.toLowerCase().includes(origin.toLowerCase()))

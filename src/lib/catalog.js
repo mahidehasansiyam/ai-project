@@ -2,11 +2,22 @@ export const HUBS = [
   { id: "mess", href: "/services/mess", icon: "🍲", en: "Mess & Residences", bn: "মেস ও রেজিডেন্স" },
   { id: "repair", href: "/services/repair", icon: "🔧", en: "Home Repair", bn: "বাসা মেরামত" },
   { id: "bus", href: "/services/bus", icon: "🚌", en: "Bus", bn: "বাস" },
-  
+  { id: "train", href: "/services/train", icon: "🚆", en: "Train", bn: "ট্রেন" },
+  { id: "heritage", href: "/services/heritage", icon: "🏛️", en: "Heritage", bn: "ঐতিহ্য" },
   { id: "hotel", href: "/services/hotel", icon: "🏨", en: "Hotel", bn: "হোটেল" },
   { id: "tutor", href: "/services/tutor", icon: "📚", en: "Tutor", bn: "টিউটর" },
   { id: "doctor", href: "/services/doctor", icon: "🩺", en: "Hospitals and Doctors", bn: "ডাক্তার ও হাসপাতাল" },
+  { id: "blood", href: "/services/blood", icon: "🩸", en: "Blood", bn: "রক্ত" },
+  { id: "ambulance", href: "/services/ambulance", icon: "🚑", en: "Ambulance", bn: "অ্যাম্বুলেন্স" },
 ];
+
+export const SERVICE_PAGES = {
+  bus: { icon: "🚌", en: "Bus Schedules", bn: "বাসের সময়সূচি" },
+  train: { icon: "🚆", en: "Train Schedules", bn: "ট্রেনের সময়সূচি" },
+  heritage: { icon: "🏛️", en: "Heritage", bn: "ঐতিহ্য" },
+  blood: { icon: "🩸", en: "Blood Banks", bn: "ব্লাড ব্যাংক" },
+  ambulance: { icon: "🚑", en: "Ambulance", bn: "অ্যাম্বুলেন্স" },
+};
 
 export const CATEGORY = {
   mess: {
@@ -81,6 +92,18 @@ export const PLACE_TYPE = {
     en: "ATM",
     bn: "এটিএম",
     chip: "bg-brand-blue/10 text-brand-blue",
+  },
+  blood: {
+    icon: "🩸",
+    en: "Blood Bank",
+    bn: "ব্লাড ব্যাংক",
+    chip: "bg-danger/10 text-danger",
+  },
+  ambulance: {
+    icon: "🚑",
+    en: "Ambulance",
+    bn: "অ্যাম্বুলেন্স",
+    chip: "bg-brand-coral/10 text-brand-coral",
   },
 };
 

@@ -28,6 +28,20 @@
     "type": "bus"
   },
   {
+    "slug": "train",
+    "hub": "travel",
+    "name": { "en": "Train Schedules", "bn": "ট্রেনের সময়সূচি" },
+    "icon": "🚆",
+    "type": "train"
+  },
+  {
+    "slug": "heritage",
+    "hub": "travel",
+    "name": { "en": "Heritage", "bn": "ঐতিহ্য" },
+    "icon": "🏛️",
+    "type": "destination"
+  },
+  {
     "slug": "hotel",
     "hub": "travel",
     "name": { "en": "Hotels", "bn": "হোটেল" },

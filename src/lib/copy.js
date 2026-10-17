@@ -3,8 +3,8 @@ export const COPY = {
   heroBadge: { en: "Everyday services, easier to find", bn: "প্রতিদিনের সেবা, সহজে খুঁজুন" },
   heroTitle: { en: "What do you need today?", bn: "আজ আপনার কী প্রয়োজন?" },
   heroSub: {
-    en: "One search box for mess, repair, buses, hotels, mosques, doctors and places to explore in Rajshahi.",
-    bn: "রাজশাহীর মেস, মেরামত, বাস, হোটেল, মসজিদ, ডাক্তার ও ভ্রমণস্থান — সব এক সার্চে।",
+    en: "One search box for mess, repair, buses, trains, hotels, mosques, doctors and places to explore in Rajshahi.",
+    bn: "রাজশাহীর মেস, মেরামত, বাস, ট্রেন, হোটেল, মসজিদ, ডাক্তার ও ভ্রমণস্থান — সব এক সার্চে।",
   },
   searchPlaceholder: { en: "Search services, places…", bn: "সেবা বা স্থান খুঁজুন…" },
   search: { en: "Search", bn: "খুঁজুন" },
@@ -198,6 +198,12 @@ export const COPY = {
   portalWhatsapp: { en: "Message on WhatsApp", bn: "হোয়াটসঅ্যাপে মেসেজ" },
   portalEmail: { en: "Email us", bn: "ইমেইল করুন" },
   bookNow: { en: "Book now", bn: "বুক করুন" },
+  trainSchedules: { en: "Train Schedules", bn: "ট্রেনের সময়সূচি" },
+  heritage: { en: "Heritage", bn: "ঐতিহ্য" },
+  heritageSub: {
+    en: "Historic and cultural sites to visit.",
+    bn: "দর্শনীয় ঐতিহাসিক ও সাংস্কৃতিক স্থান।",
+  },
   sampleNotice: {
     en: "Demo — sample data, not real businesses.",
     bn: "ডেমো — নমুনা তথ্য, প্রকৃত প্রতিষ্ঠান নয়।",

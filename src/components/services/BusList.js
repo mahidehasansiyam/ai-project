@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { makeT } from "@/lib/copy";
 import { useLang } from "@/lib/client-store";
-import { filterBusRoutes } from "@/lib/search";
+import { filterRoutes } from "@/lib/search";
 
 export default function BusList({ routes }) {
   const lang = useLang();
@@ -13,7 +13,7 @@ export default function BusList({ routes }) {
 
   const origins = [...new Set(routes.map((route) => route.origin))];
   const destinations = [...new Set(routes.map((route) => route.destination))];
-  const results = filterBusRoutes(routes, { origin, destination });
+  const results = filterRoutes(routes, { origin, destination });
 
   return (
     <div className="mx-auto w-full max-w-4xl px-4 pt-6 pb-24 md:pb-10">

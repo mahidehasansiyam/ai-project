@@ -1,24 +1,35 @@
 import { notFound } from "next/navigation";
-import { CATEGORY } from "@/lib/catalog";
+import { CATEGORY, SERVICE_PAGES } from "@/lib/catalog";
 import CategoryListing from "@/components/services/CategoryListing";
 import CategoryPlaces from "@/components/services/CategoryPlaces";
 import BusList from "@/components/services/BusList";
+import TrainList from "@/components/services/TrainList";
+import HeritageList from "@/components/services/HeritageList";
 import listings from "@/data/listings.json";
 import places from "@/data/places.json";
 import busRoutes from "@/data/busRoutes.json";
+import trainRoutes from "@/data/trainRoutes.json";
+import destinations from "@/data/destinations.json";
 
 const LISTING_CATEGORIES = Object.keys(CATEGORY);
 const PLACE_TYPES = { mosque: ["mosque"], doctor: ["doctor", "hospital"] };
 
 export function generateStaticParams() {
-  return [...LISTING_CATEGORIES, "mosque", "doctor", "bus"].map((category) => ({
+  return [
+    ...LISTING_CATEGORIES,
+    "mosque",
+    "doctor",
+    "bus",
+    "train",
+    "heritage",
+  ].map((category) => ({
     category,
   }));
 }
 
 export async function generateMetadata({ params }) {
   const { category } = await params;
-  const meta = CATEGORY[category];
+  const meta = CATEGORY[category] ?? SERVICE_PAGES[category];
   const title = meta ? meta.en : category;
   return {
     title: `${title} — CitySheba`,
@@ -42,6 +53,15 @@ export default async function CategoryPage({ params }) {
 
   if (category === "bus") {
     return <BusList routes={busRoutes} />;
+  }
+
+  if (category === "train") {
+    return <TrainList routes={trainRoutes} />;
+  }
+
+  if (category === "heritage") {
+    const items = destinations.filter((place) => place.category === "heritage");
+    return <HeritageList items={items} />;
   }
 
   notFound();

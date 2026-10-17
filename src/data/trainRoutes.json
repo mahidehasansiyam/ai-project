@@ -1,0 +1,67 @@
+[
+  {
+    "id": "rajshahi-dhaka-silk-city",
+    "operator": "Silk City Express",
+    "origin": "Rajshahi (Rajshahi Station)",
+    "destination": "Dhaka (Kamalapur)",
+    "fare": 785,
+    "trainType": "Intercity (AC Chair)",
+    "departures": ["07:40", "15:00"],
+    "updatedAt": "2026-10-05",
+    "counterPhone": "+8801700000040",
+    "bookingUrl": "https://eticket.railway.gov.bd/",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-dhaka-padma",
+    "operator": "Padma Express",
+    "origin": "Rajshahi (Rajshahi Station)",
+    "destination": "Dhaka (Kamalapur)",
+    "fare": 640,
+    "trainType": "Intercity (Shovan Chair)",
+    "departures": ["23:10"],
+    "updatedAt": "2026-10-03",
+    "counterPhone": "+8801700000041",
+    "bookingUrl": "https://eticket.railway.gov.bd/",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-khulna-kapotaksha",
+    "operator": "Kapotaksha Express",
+    "origin": "Rajshahi (Rajshahi Station)",
+    "destination": "Khulna (Khulna Station)",
+    "fare": 520,
+    "trainType": "Intercity (Shovan Chair)",
+    "departures": ["06:30", "14:15"],
+    "updatedAt": "2026-09-29",
+    "counterPhone": "+8801700000042",
+    "bookingUrl": "https://eticket.railway.gov.bd/",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-chilahati-titumir",
+    "operator": "Titumir Express",
+    "origin": "Rajshahi (Rajshahi Station)",
+    "destination": "Chilahati (Chilahati Station)",
+    "fare": 260,
+    "trainType": "Mail/Express",
+    "departures": ["09:20", "18:40"],
+    "updatedAt": "2026-09-22",
+    "counterPhone": "+8801700000043",
+    "bookingUrl": "https://eticket.railway.gov.bd/",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-chattogram-barendra",
+    "operator": "Barendra Express",
+    "origin": "Rajshahi (Rajshahi Station)",
+    "destination": "Chattogram (Chattogram Station)",
+    "fare": 910,
+    "trainType": "Intercity (AC Chair)",
+    "departures": ["21:30"],
+    "updatedAt": "2026-09-15",
+    "counterPhone": "+8801700000044",
+    "bookingUrl": "https://eticket.railway.gov.bd/",
+    "isSample": true
+  }
+]
