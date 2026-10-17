@@ -1,17 +1,18 @@
 export const HUBS = [
-  { id: "mess", href: "/services/mess", icon: "🍲", en: "Mess & Rooms", bn: "মেস ও রুম" },
+  { id: "mess", href: "/services/mess", icon: "🍲", en: "Mess & Residences", bn: "মেস ও রেজিডেন্স" },
   { id: "repair", href: "/services/repair", icon: "🔧", en: "Home Repair", bn: "বাসা মেরামত" },
   { id: "bus", href: "/services/bus", icon: "🚌", en: "Bus", bn: "বাস" },
+  
   { id: "hotel", href: "/services/hotel", icon: "🏨", en: "Hotel", bn: "হোটেল" },
-  { id: "mosque", href: "/services/mosque", icon: "🕌", en: "Mosque", bn: "মসজিদ" },
-  { id: "doctor", href: "/services/doctor", icon: "🩺", en: "Doctor", bn: "ডাক্তার" },
+  { id: "tutor", href: "/services/tutor", icon: "📚", en: "Tutor", bn: "টিউটর" },
+  { id: "doctor", href: "/services/doctor", icon: "🩺", en: "Hospitals and Doctors", bn: "ডাক্তার ও হাসপাতাল" },
 ];
 
 export const CATEGORY = {
   mess: {
     icon: "🍲",
-    en: "Mess & Rooms",
-    bn: "মেস ও রুম",
+    en: "Mess & Residences",
+    bn: "মেস ও রেজিডেন্স",
     chip: "bg-brand-teal/10 text-brand-teal",
     thumb: "from-brand-teal/30 via-brand-teal/10 to-transparent",
     dot: "bg-brand-teal",
