@@ -2,7 +2,7 @@
   {
     "slug": "mess",
     "hub": "home",
-    "name": { "en": "Mess & Rooms", "bn": "মেস ও রুম" },
+    "name": { "en": "Mess & Residences", "bn": "মেস ও রেজিডেন্স" },
     "icon": "🍲",
     "type": "listing"
   },
@@ -34,17 +34,11 @@
     "icon": "🏨",
     "type": "listing"
   },
-  {
-    "slug": "mosque",
-    "hub": "community",
-    "name": { "en": "Mosques", "bn": "মসজিদ" },
-    "icon": "🕌",
-    "type": "place"
-  },
+ 
   {
     "slug": "doctor",
     "hub": "community",
-    "name": { "en": "Doctors", "bn": "ডাক্তার" },
+    "name": { "en": "Hospitals and Doctors", "bn": "ডাক্তার ও হাসপাতাল" },
     "icon": "🩺",
     "type": "place"
   },
