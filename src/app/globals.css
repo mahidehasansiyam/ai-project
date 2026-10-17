@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------------------
+   CitySheba design tokens (see Read.md > "Design System")
+   --------------------------------------------------------------------------- */
+:root {
+  --brand-navy: #10243a;
+  --brand-teal: #0f9d8a;
+  --brand-blue: #3a86cc;
+  --brand-purple: #7b6fc8;
+  --accent-coral: #ff8a65;
+  --success: #1e9e6a;
+  --warning: #c58a12;
+  --danger: #d9534f;
+
+  --surface: #ffffff;
+  --surface-strong: #ffffff;
+  --background: #f6fafd;
+  --border: #dde6ee;
+  --foreground: #10243a;
+  --muted-text: #5b6b7c;
+}
+
+.dark {
+  --brand-navy: #0b1827;
+  --brand-teal: #2bc4ae;
+  --brand-blue: #6aa9e6;
+  --brand-purple: #a196e8;
+  --accent-coral: #ff9e80;
+  --success: #3ccb92;
+  --warning: #f0b84a;
+  --danger: #f27c78;
+
+  --surface: #13263b;
+  --surface-strong: #172c43;
+  --background: #0b1827;
+  --border: #26405a;
+  --foreground: #eaf2fa;
+  --muted-text: #9fb1c3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-border: var(--border);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted-text);
+
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-purple: var(--brand-purple);
+  --color-brand-coral: var(--accent-coral);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  --font-display: var(--font-jakarta), var(--font-hind), ui-sans-serif, system-ui,
+    sans-serif;
+  --font-body: var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui,
+    sans-serif;
+
+  --radius-card: 16px;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background: var(--brand-teal);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: color-mix(in srgb, var(--surface) 78%, transparent);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .animate-rise {
+    animation: rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise {
+    animation: none;
+  }
+}

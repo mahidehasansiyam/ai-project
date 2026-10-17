@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "varendra-research-museum",
+    "name": { "en": "Varendra Research Museum", "bn": "বরেন্দ্র গবেষণা জাদুঘর" },
+    "division": "rajshahi",
+    "district": "Rajshahi",
+    "category": "heritage",
+    "description": {
+      "en": "The oldest museum in Bangladesh, in the heart of Rajshahi city, holding ancient stone and terracotta collections.",
+      "bn": "বাংলাদেশের প্রাচীনতম জাদুঘর, রাজশাহী শহরের প্রাণকেন্দ্রে।"
+    },
+    "bestSeason": "Year-round",
+    "mapLink": "https://maps.google.com/?q=Varendra+Research+Museum+Rajshahi",
+    "sourceUrl": "https://beautifulbangladesh.gov.bd/",
+    "verifiedAt": "2026-09-18",
+    "isSample": true,
+    "status": "published"
+  },
+  {
+    "slug": "rajshahi-university-campus",
+    "name": { "en": "Rajshahi University Campus", "bn": "রাজশাহী বিশ্ববিদ্যালয় ক্যাম্পাস" },
+    "division": "rajshahi",
+    "district": "Rajshahi",
+    "category": "heritage",
+    "description": {
+      "en": "A green riverside campus with the Shaheed Minar, a large library and shaded walkways.",
+      "bn": "সবুজে ঘেরা নদীতীরবর্তী ক্যাম্পাস।"
+    },
+    "bestSeason": "Year-round",
+    "mapLink": "https://maps.google.com/?q=Rajshahi+University",
+    "sourceUrl": "https://beautifulbangladesh.gov.bd/",
+    "verifiedAt": "2026-09-16",
+    "isSample": true,
+    "status": "published"
+  },
+  {
+    "slug": "boro-kuthi-rajshahi",
+    "name": { "en": "Boro Kuthi", "bn": "বড় কুঠি" },
+    "division": "rajshahi",
+    "district": "Rajshahi",
+    "category": "heritage",
+    "description": {
+      "en": "A Dutch-era trading house on the Padma embankment, later used by the East India Company.",
+      "bn": "পদ্মার তীরে ডাচ আমলের বাণিজ্য কুঠি।"
+    },
+    "bestSeason": "November to February",
+    "mapLink": "https://maps.google.com/?q=Boro+Kuthi+Rajshahi",
+    "sourceUrl": "https://beautifulbangladesh.gov.bd/",
+    "verifiedAt": "2026-09-14",
+    "isSample": true,
+    "status": "published"
+  },
+  {
+    "slug": "padma-riverside-t-bandh",
+    "name": { "en": "Padma Riverside (T-Bandh)", "bn": "পদ্মা নদীতীর (টি-বাঁধ)" },
+    "division": "rajshahi",
+    "district": "Rajshahi",
+    "category": "river",
+    "description": {
+      "en": "A popular riverside promenade along the Padma, best at sunset.",
+      "bn": "পদ্মা নদীর ধারে ঘোরার জন্য জনপ্রিয় জায়গা, সূর্যাস্ত সবচেয়ে সুন্দর।"
+    },
+    "bestSeason": "November to February",
+    "mapLink": "https://maps.google.com/?q=Padma+River+Embankment+Rajshahi",
+    "sourceUrl": "https://beautifulbangladesh.gov.bd/",
+    "verifiedAt": "2026-09-12",
+    "isSample": true,
+    "status": "published"
+  },
+  {
+    "slug": "padma-garden-rajshahi",
+    "name": { "en": "Padma Garden", "bn": "পদ্মা গার্ডেন" },
+    "division": "rajshahi",
+    "district": "Rajshahi",
+    "category": "park",
+    "description": {
+      "en": "A landscaped riverside park and amusement area next to the Padma embankment.",
+      "bn": "পদ্মা নদীর পাশে সাজানো বিনোদন পার্ক।"
+    },
+    "bestSeason": "Year-round",
+    "mapLink": "https://maps.google.com/?q=Padma+Garden+Rajshahi",
+    "sourceUrl": "https://beautifulbangladesh.gov.bd/",
+    "verifiedAt": "2026-09-10",
+    "isSample": true,
+    "status": "published"
+  },
+  {
+    "slug": "central-park-rajshahi",
+    "name": { "en": "Central Park", "bn": "সেন্ট্রাল পার্ক" },
+    "division": "rajshahi",
+    "district": "Rajshahi",
+    "category": "park",
+    "description": {
+      "en": "A central city park near Shaheb Bazar, with open lawns and evening food stalls.",
+      "bn": "শাহেব বাজারের কাছে শহরের কেন্দ্রীয় পার্ক।"
+    },
+    "bestSeason": "Year-round",
+    "mapLink": "https://maps.google.com/?q=Central+Park+Rajshahi",
+    "sourceUrl": "https://beautifulbangladesh.gov.bd/",
+    "verifiedAt": "2026-09-08",
+    "isSample": true,
+    "status": "published"
+  }
+]

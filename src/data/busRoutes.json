@@ -1,0 +1,67 @@
+[
+  {
+    "id": "rajshahi-dhaka-padmali",
+    "operator": "Padma Line Express",
+    "origin": "Rajshahi (Shaheb Bazar)",
+    "destination": "Dhaka (Gabtoli)",
+    "fare": 1000,
+    "busType": "AC",
+    "departures": ["21:00", "22:30", "23:30"],
+    "updatedAt": "2026-10-05",
+    "counterPhone": "+8801700000030",
+    "bookingUrl": "https://bkash.shohoz.com/bus-tickets",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-chattogram-barendra",
+    "operator": "Barendra Express",
+    "origin": "Rajshahi (Shaheb Bazar)",
+    "destination": "Chattogram (Dampara)",
+    "fare": 1300,
+    "busType": "AC",
+    "departures": ["20:00", "21:00"],
+    "updatedAt": "2026-10-02",
+    "counterPhone": "+8801700000031",
+    "bookingUrl": "https://bkash.shohoz.com/bus-tickets",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-sylhet-somoy",
+    "operator": "Somoy Paribahan",
+    "origin": "Rajshahi (Shaheb Bazar)",
+    "destination": "Sylhet (Kadamtali)",
+    "fare": 1100,
+    "busType": "AC",
+    "departures": ["19:30"],
+    "updatedAt": "2026-09-28",
+    "counterPhone": "+8801700000032",
+    "bookingUrl": "https://bkash.shohoz.com/bus-tickets",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-khulna-shohor",
+    "operator": "Shohor Travels",
+    "origin": "Rajshahi (Shaheb Bazar)",
+    "destination": "Khulna (Sony Cinema Hall)",
+    "fare": 700,
+    "busType": "Non-AC",
+    "departures": ["07:00", "15:00"],
+    "updatedAt": "2026-09-20",
+    "counterPhone": "+8801700000033",
+    "bookingUrl": "https://bkash.shohoz.com/bus-tickets",
+    "isSample": true
+  },
+  {
+    "id": "rajshahi-bogura-uttoron",
+    "operator": "Uttoron Express",
+    "origin": "Rajshahi (Shaheb Bazar)",
+    "destination": "Bogura (Charmatha)",
+    "fare": 400,
+    "busType": "AC",
+    "departures": ["08:00", "13:00", "18:00"],
+    "updatedAt": "2026-09-15",
+    "counterPhone": "+8801700000034",
+    "bookingUrl": "https://bkash.shohoz.com/bus-tickets",
+    "isSample": true
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rajshahi",
+    "name": { "en": "Rajshahi", "bn": "রাজশাহী" },
+    "areas": [
+      { "id": "shaheb-bazar-rajshahi", "name": "Shaheb Bazar, Rajshahi" },
+      { "id": "uposhohor-rajshahi", "name": "Uposhohor, Rajshahi" },
+      { "id": "ghoramara-rajshahi", "name": "Ghoramara, Rajshahi" },
+      { "id": "bhadra-rajshahi", "name": "Bhadra, Rajshahi" },
+      { "id": "seroil-rajshahi", "name": "Seroil, Rajshahi" },
+      { "id": "tikapara-rajshahi", "name": "Tikapara, Rajshahi" },
+      { "id": "kazla-rajshahi", "name": "Kazla, Rajshahi" },
+      { "id": "talaimari-rajshahi", "name": "Talaimari, Rajshahi" },
+      { "id": "binodpur-rajshahi", "name": "Binodpur, Rajshahi" },
+      { "id": "katakhali-rajshahi", "name": "Katakhali, Rajshahi" },
+      { "id": "haripur-rajshahi", "name": "Haripur, Rajshahi" },
+      { "id": "ranibazar-rajshahi", "name": "Ranibazar, Rajshahi" }
+    ]
+  }
+]

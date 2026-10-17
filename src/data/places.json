@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "shaheb-bazar-boro-masjid",
+    "type": "mosque",
+    "name": { "en": "Shaheb Bazar Boro Masjid", "bn": "শাহেব বাজার বড় মসজিদ" },
+    "area": "Shaheb Bazar, Rajshahi",
+    "areaId": "shaheb-bazar-rajshahi",
+    "location": { "lat": 24.3662, "lng": 88.6011 },
+    "jumahTime": "13:30",
+    "prayerTimesSource": "Local committee",
+    "contacts": { "phone": "+8801700000020" },
+    "verifiedAt": "2026-09-15",
+    "isSample": true
+  },
+  {
+    "slug": "kazla-jame-mosque",
+    "type": "mosque",
+    "name": { "en": "Kazla Jame Mosque", "bn": "কাজলা জামে মসজিদ" },
+    "area": "Kazla, Rajshahi",
+    "areaId": "kazla-rajshahi",
+    "location": { "lat": 24.3720, "lng": 88.6340 },
+    "jumahTime": "13:15",
+    "prayerTimesSource": "Local committee",
+    "contacts": { "phone": "+8801700000021" },
+    "verifiedAt": "2026-09-12",
+    "isSample": true
+  },
+  {
+    "slug": "city-care-hospital-rajshahi",
+    "type": "hospital",
+    "name": { "en": "City Care Hospital", "bn": "সিটি কেয়ার হাসপাতাল" },
+    "area": "Shaheb Bazar, Rajshahi",
+    "areaId": "shaheb-bazar-rajshahi",
+    "location": { "lat": 24.3655, "lng": 88.5985 },
+    "emergencyPhone": "999",
+    "contacts": { "phone": "+8801700000022" },
+    "verifiedAt": "2026-09-10",
+    "isSample": true
+  },
+  {
+    "slug": "padma-general-hospital",
+    "type": "hospital",
+    "name": { "en": "Padma General Hospital", "bn": "পদ্মা জেনারেল হাসপাতাল" },
+    "area": "Uposhohor, Rajshahi",
+    "areaId": "uposhohor-rajshahi",
+    "location": { "lat": 24.3589, "lng": 88.5905 },
+    "emergencyPhone": "999",
+    "contacts": { "phone": "+8801700000023" },
+    "verifiedAt": "2026-09-08",
+    "isSample": true
+  },
+  {
+    "slug": "nagar-diagnostic-rajshahi",
+    "type": "hospital",
+    "name": { "en": "Nagar Diagnostic Centre", "bn": "নগর ডায়াগনস্টিক সেন্টার" },
+    "area": "Bhadra, Rajshahi",
+    "areaId": "bhadra-rajshahi",
+    "location": { "lat": 24.3630, "lng": 88.5940 },
+    "emergencyPhone": "999",
+    "contacts": { "phone": "+8801700000024" },
+    "verifiedAt": "2026-09-06",
+    "isSample": true
+  },
+  {
+    "slug": "dr-rahman-medicine-shaheb-bazar",
+    "type": "doctor",
+    "name": { "en": "Dr. A. Rahman (Medicine)", "bn": "ডা. এ. রহমান (মেডিসিন)" },
+    "area": "Shaheb Bazar, Rajshahi",
+    "areaId": "shaheb-bazar-rajshahi",
+    "location": { "lat": 24.3670, "lng": 88.6000 },
+    "speciality": { "en": "Medicine", "bn": "মেডিসিন" },
+    "chamberHours": "Sat–Thu, 5pm–9pm",
+    "contacts": { "phone": "+8801700000025" },
+    "verifiedAt": "2026-09-05",
+    "isSample": true
+  },
+  {
+    "slug": "dr-nahar-child-uposhohor",
+    "type": "doctor",
+    "name": { "en": "Dr. S. Nahar (Child)", "bn": "ডা. এস. নাহার (শিশু)" },
+    "area": "Uposhohor, Rajshahi",
+    "areaId": "uposhohor-rajshahi",
+    "location": { "lat": 24.3595, "lng": 88.5910 },
+    "speciality": { "en": "Paediatrics", "bn": "শিশু রোগ" },
+    "chamberHours": "Fri–Wed, 6pm–9pm",
+    "contacts": { "phone": "+8801700000026" },
+    "verifiedAt": "2026-09-04",
+    "isSample": true
+  },
+  {
+    "slug": "city-bank-atm-shaheb-bazar",
+    "type": "atm",
+    "name": { "en": "City Bank ATM", "bn": "সিটি ব্যাংক এটিএম" },
+    "area": "Shaheb Bazar, Rajshahi",
+    "areaId": "shaheb-bazar-rajshahi",
+    "location": { "lat": 24.3658, "lng": 88.6025 },
+    "contacts": {},
+    "verifiedAt": "2026-09-03",
+    "isSample": true
+  },
+  {
+    "slug": "brac-bank-atm-ghoramara",
+    "type": "atm",
+    "name": { "en": "BRAC Bank ATM", "bn": "ব্র্যাক ব্যাংক এটিএম" },
+    "area": "Ghoramara, Rajshahi",
+    "areaId": "ghoramara-rajshahi",
+    "location": { "lat": 24.3639, "lng": 88.6180 },
+    "contacts": {},
+    "verifiedAt": "2026-09-02",
+    "isSample": true
+  }
+]

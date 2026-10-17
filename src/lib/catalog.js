@@ -1,0 +1,87 @@
+export const HUBS = [
+  { id: "mess", href: "/services/mess", icon: "🍲", en: "Mess & Rooms", bn: "মেস ও রুম" },
+  { id: "repair", href: "/services/repair", icon: "🔧", en: "Home Repair", bn: "বাসা মেরামত" },
+  { id: "bus", href: "/services/bus", icon: "🚌", en: "Bus", bn: "বাস" },
+  { id: "hotel", href: "/services/hotel", icon: "🏨", en: "Hotel", bn: "হোটেল" },
+  { id: "mosque", href: "/services/mosque", icon: "🕌", en: "Mosque", bn: "মসজিদ" },
+  { id: "doctor", href: "/services/doctor", icon: "🩺", en: "Doctor", bn: "ডাক্তার" },
+];
+
+export const CATEGORY = {
+  mess: {
+    icon: "🍲",
+    en: "Mess & Rooms",
+    bn: "মেস ও রুম",
+    chip: "bg-brand-teal/10 text-brand-teal",
+    thumb: "from-brand-teal/30 via-brand-teal/10 to-transparent",
+    dot: "bg-brand-teal",
+    unit: "month",
+  },
+  repair: {
+    icon: "🔧",
+    en: "Home Repair",
+    bn: "বাসা মেরামত",
+    chip: "bg-brand-coral/10 text-brand-coral",
+    thumb: "from-brand-coral/30 via-brand-coral/10 to-transparent",
+    dot: "bg-brand-coral",
+    unit: "visit",
+  },
+  hotel: {
+    icon: "🏨",
+    en: "Hotel",
+    bn: "হোটেল",
+    chip: "bg-brand-blue/10 text-brand-blue",
+    thumb: "from-brand-blue/30 via-brand-blue/10 to-transparent",
+    dot: "bg-brand-blue",
+    unit: "night",
+  },
+  tutor: {
+    icon: "📚",
+    en: "Tutor",
+    bn: "টিউটর",
+    chip: "bg-brand-purple/10 text-brand-purple",
+    thumb: "from-brand-purple/30 via-brand-purple/10 to-transparent",
+    dot: "bg-brand-purple",
+    unit: "month",
+  },
+};
+
+export const PLACE = {
+  beach: { icon: "🏖️", chip: "from-brand-blue/60", en: "Beach", bn: "সমুদ্র সৈকত" },
+  island: { icon: "🏝️", chip: "from-brand-teal/60", en: "Island", bn: "দ্বীপ" },
+  forest: { icon: "🌳", chip: "from-success/60", en: "Forest", bn: "বন" },
+  heritage: { icon: "🏛️", chip: "from-brand-purple/60", en: "Heritage", bn: "ঐতিহ্য" },
+  "tea-garden": { icon: "🍃", chip: "from-success/60", en: "Tea Garden", bn: "চা বাগান" },
+  park: { icon: "🌳", chip: "from-success/60", en: "Park", bn: "পার্ক" },
+  river: { icon: "🌊", chip: "from-brand-blue/60", en: "Riverside", bn: "নদীতীর" },
+};
+
+export const PLACE_TYPE = {
+  mosque: {
+    icon: "🕌",
+    en: "Mosque",
+    bn: "মসজিদ",
+    chip: "bg-brand-purple/10 text-brand-purple",
+  },
+  hospital: {
+    icon: "🏥",
+    en: "Hospital",
+    bn: "হাসপাতাল",
+    chip: "bg-danger/10 text-danger",
+  },
+  doctor: {
+    icon: "🩺",
+    en: "Doctor",
+    bn: "ডাক্তার",
+    chip: "bg-success/10 text-success",
+  },
+  atm: {
+    icon: "🏧",
+    en: "ATM",
+    bn: "এটিএম",
+    chip: "bg-brand-blue/10 text-brand-blue",
+  },
+};
+
+export const categoryMeta = (id) => CATEGORY[id] ?? CATEGORY.mess;
+export const placeTypeMeta = (id) => PLACE_TYPE[id] ?? PLACE_TYPE.mosque;

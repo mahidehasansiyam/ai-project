@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "mess",
+    "hub": "home",
+    "name": { "en": "Mess & Rooms", "bn": "মেস ও রুম" },
+    "icon": "🍲",
+    "type": "listing"
+  },
+  {
+    "slug": "repair",
+    "hub": "home",
+    "name": { "en": "Home Repair", "bn": "বাসা মেরামত" },
+    "icon": "🔧",
+    "type": "listing"
+  },
+  {
+    "slug": "tutor",
+    "hub": "home",
+    "name": { "en": "Tutors", "bn": "টিউটর" },
+    "icon": "📚",
+    "type": "listing"
+  },
+  {
+    "slug": "bus",
+    "hub": "travel",
+    "name": { "en": "Bus Schedules", "bn": "বাসের সময়সূচি" },
+    "icon": "🚌",
+    "type": "bus"
+  },
+  {
+    "slug": "hotel",
+    "hub": "travel",
+    "name": { "en": "Hotels", "bn": "হোটেল" },
+    "icon": "🏨",
+    "type": "listing"
+  },
+  {
+    "slug": "mosque",
+    "hub": "community",
+    "name": { "en": "Mosques", "bn": "মসজিদ" },
+    "icon": "🕌",
+    "type": "place"
+  },
+  {
+    "slug": "doctor",
+    "hub": "community",
+    "name": { "en": "Doctors", "bn": "ডাক্তার" },
+    "icon": "🩺",
+    "type": "place"
+  },
+  {
+    "slug": "explore",
+    "hub": "travel",
+    "name": { "en": "Tourism", "bn": "পর্যটন" },
+    "icon": "🗺️",
+    "type": "destination"
+  }
+]
