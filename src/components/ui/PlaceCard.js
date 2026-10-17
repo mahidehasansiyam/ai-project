@@ -48,6 +48,18 @@ export default function PlaceCard({ place, className = "" }) {
             <dd>{place.chamberHours}</dd>
           </div>
         ) : null}
+        {place.groups ? (
+          <div className="flex gap-1">
+            <dt className="font-medium text-foreground">{t("bloodGroups")}:</dt>
+            <dd>{place.groups.join(", ")}</dd>
+          </div>
+        ) : null}
+        {place.coverage ? (
+          <div className="flex gap-1">
+            <dt className="font-medium text-foreground">{t("coverage")}:</dt>
+            <dd>{label(place.coverage, lang)}</dd>
+          </div>
+        ) : null}
         {place.emergencyPhone ? (
           <div className="flex gap-1 text-danger">
             <dt className="font-medium">{t("emergency")}:</dt>

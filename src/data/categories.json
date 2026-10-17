@@ -42,6 +42,20 @@
     "type": "destination"
   },
   {
+    "slug": "blood",
+    "hub": "community",
+    "name": { "en": "Blood Banks", "bn": "ব্লাড ব্যাংক" },
+    "icon": "🩸",
+    "type": "place"
+  },
+  {
+    "slug": "ambulance",
+    "hub": "community",
+    "name": { "en": "Ambulance", "bn": "অ্যাম্বুলেন্স" },
+    "icon": "🚑",
+    "type": "place"
+  },
+  {
     "slug": "hotel",
     "hub": "travel",
     "name": { "en": "Hotels", "bn": "হোটেল" },

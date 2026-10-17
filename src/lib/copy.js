@@ -204,6 +204,10 @@ export const COPY = {
     en: "Historic and cultural sites to visit.",
     bn: "দর্শনীয় ঐতিহাসিক ও সাংস্কৃতিক স্থান।",
   },
+  blood: { en: "Blood", bn: "রক্ত" },
+  ambulance: { en: "Ambulance", bn: "অ্যাম্বুলেন্স" },
+  bloodGroups: { en: "Blood groups", bn: "রক্তের গ্রুপ" },
+  coverage: { en: "Coverage", bn: "কভারেজ" },
   sampleNotice: {
     en: "Demo — sample data, not real businesses.",
     bn: "ডেমো — নমুনা তথ্য, প্রকৃত প্রতিষ্ঠান নয়।",

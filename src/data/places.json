@@ -108,5 +108,57 @@
     "contacts": {},
     "verifiedAt": "2026-09-02",
     "isSample": true
+  },
+  {
+    "slug": "rajshahi-blood-transfusion-centre",
+    "type": "blood",
+    "name": { "en": "Rajshahi Blood Transfusion Centre", "bn": "রাজশাহী ব্লাড ট্রান্সফিউশন সেন্টার" },
+    "area": "Shaheb Bazar, Rajshahi",
+    "areaId": "shaheb-bazar-rajshahi",
+    "location": { "lat": 24.3658, "lng": 88.5998 },
+    "groups": ["A+", "B+", "O+", "AB+", "O-"],
+    "chamberHours": "Open 24 hours",
+    "contacts": { "phone": "+8801700000050" },
+    "verifiedAt": "2026-10-01",
+    "isSample": true
+  },
+  {
+    "slug": "padma-blood-bank-uposhohor",
+    "type": "blood",
+    "name": { "en": "Padma Blood Bank", "bn": "পদ্মা ব্লাড ব্যাংক" },
+    "area": "Uposhohor, Rajshahi",
+    "areaId": "uposhohor-rajshahi",
+    "location": { "lat": 24.3590, "lng": 88.5908 },
+    "groups": ["A+", "B+", "O+"],
+    "chamberHours": "8am–10pm",
+    "contacts": { "phone": "+8801700000051" },
+    "verifiedAt": "2026-09-28",
+    "isSample": true
+  },
+  {
+    "slug": "rajshahi-care-ambulance-uposhohor",
+    "type": "ambulance",
+    "name": { "en": "Rajshahi Care Ambulance", "bn": "রাজশাহী কেয়ার অ্যাম্বুলেন্স" },
+    "area": "Uposhohor, Rajshahi",
+    "areaId": "uposhohor-rajshahi",
+    "location": { "lat": 24.3593, "lng": 88.5915 },
+    "coverage": { "en": "City-wide, ICU support", "bn": "সারা শহর, আইসিইউ সুবিধা" },
+    "chamberHours": "Open 24 hours",
+    "contacts": { "phone": "+8801700000052" },
+    "verifiedAt": "2026-10-02",
+    "isSample": true
+  },
+  {
+    "slug": "padma-life-ambulance-talaimari",
+    "type": "ambulance",
+    "name": { "en": "Padma Life Ambulance", "bn": "পদ্মা লাইফ অ্যাম্বুলেন্স" },
+    "area": "Talaimari, Rajshahi",
+    "areaId": "talaimari-rajshahi",
+    "location": { "lat": 24.3701, "lng": 88.6290 },
+    "coverage": { "en": "City and nearby upazilas", "bn": "শহর ও আশপাশের উপজেলা" },
+    "chamberHours": "Open 24 hours",
+    "contacts": { "phone": "+8801700000053" },
+    "verifiedAt": "2026-09-30",
+    "isSample": true
   }
 ]

@@ -12,7 +12,12 @@ import trainRoutes from "@/data/trainRoutes.json";
 import destinations from "@/data/destinations.json";
 
 const LISTING_CATEGORIES = Object.keys(CATEGORY);
-const PLACE_TYPES = { mosque: ["mosque"], doctor: ["doctor", "hospital"] };
+const PLACE_TYPES = {
+  mosque: ["mosque"],
+  doctor: ["doctor", "hospital"],
+  blood: ["blood"],
+  ambulance: ["ambulance"],
+};
 
 export function generateStaticParams() {
   return [
@@ -22,6 +27,8 @@ export function generateStaticParams() {
     "bus",
     "train",
     "heritage",
+    "blood",
+    "ambulance",
   ].map((category) => ({
     category,
   }));
